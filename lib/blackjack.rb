@@ -1,4 +1,4 @@
-def welcome
+    def welcome
   puts "Welcome to the Blackjack Table"
 end
 
@@ -46,6 +46,8 @@ end
 def invalid_command
   puts "Please enter a valid command"
 end
+
+invalid_command
 
 #####################################################
 # get every test to pass before coding runner below #
